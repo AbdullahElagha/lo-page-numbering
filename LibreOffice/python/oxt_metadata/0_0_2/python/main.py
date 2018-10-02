@@ -448,8 +448,5 @@ def get_instance(service_name):
 
 
 g_ImplementationHelper = unohelper.ImplementationHelper()
-g_ImplementationHelper.addImplementation(
-    oListenerTop_Class,
-    "com.sun.star.awt.XTopWindowListener", ()
-)
+g_ImplementationHelper.addImplementation(oListenerTop_Class, "com.sun.star.awt.XTopWindowListener", ())
 g_exportedScripts = main,
